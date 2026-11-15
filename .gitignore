@@ -1,0 +1,24 @@
+# Secrets: the team key lives in .env and must never be committed.
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Reveal exports and other run output
+reveal-*/
+
+# Private team notes and the raw kit download: not part of the public repo
+junction-bahn-spread/
+spread-kit/
+
+# Dumped worlds and experiment results
+data/
+
+# Working notes for the coding agent: local only
+CLAUDE.md
+HANDOFF.md
+IDEAS-ASTRA.md
+astra/
+brief/
